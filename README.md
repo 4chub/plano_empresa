@@ -1,3 +1,31 @@
+## Endpoint de Login
+
+### **POST** `/api/Login`
+
+**Descrição:** Efetua login na API para obter o token necessário para autenticação.
+
+### Parâmetros
+
+- **Sem parâmetros de URL**
+
+### Corpo da Requisição
+
+Formato `application/json`:
+
+```json
+{
+  "username": "string",
+  "password": "string"
+}
+```
+
+### Respostas
+
+- **200 OK**: Retorna o token e a validade.
+- **400 Bad Request**: Falha na autenticação.
+
+---
+
 # Endpoint: GET /api/PlanoEmpresa/Pagina/{page}
 
 Obtém a lista de planos de empresas de forma paginada.
