@@ -28,7 +28,7 @@ Formato `application/json`:
 
 # Endpoint: GET /api/PlanoEmpresa/Pagina/{page}
 
-Obtém a lista de planos de empresas de forma paginada.
+Obtém a lista de planos, quantidade de clientes e quantidade contratado de cada empresa de forma paginada.
 
 ---
 
