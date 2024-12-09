@@ -27,15 +27,3 @@ Obtém a lista de planos de empresas de forma paginada.
 ### **200 - Sucesso**
 - Descrição: Solicitação bem-sucedida.
 - Media type: `application/json`
-- Exemplo de resposta:
-  ```json
-  {
-    "type": "string",
-    "title": "string",
-    "status": 0,
-    "detail": "string",
-    "instance": "string",
-    "additionalProp1": "string",
-    "additionalProp2": "string",
-    "additionalProp3": "string"
-  }
